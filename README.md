@@ -1,2 +1,2 @@
-# eccomerce_php
-An eccomerce website created following a Udemy course
+# ecomerce_php
+An ecomerce website created following a Udemy course

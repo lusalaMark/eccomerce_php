@@ -10,16 +10,16 @@ defined("TEMPLATE_FRONT") ? null : define("TEMPLATE_FRONT", __DIR__ . DS . "temp
 
 defined("TEMPLATE_BACK") ? null : define("TEMPLATE_BACK", __DIR__ . DS . "templates/back"); 
 
-defined("DB_HOST") ? null : define("DB_HOST", "localhost"); 
+defined("DB_SERVER") ? null : define("DB_SERVER", "localhost"); 
 
 defined("DB_USER") ? null : define("DB_USER", "root"); 
 
-defined("DB_PASS") ? null : define("DB_PASS", ""); 
+defined("DB_PASSWORD") ? null : define("DB_PASSWORD", ""); 
 
-defined("DB_NAME") ? null : define("DB_NAME", "ecom_db"); 
+defined("DB_DATABASE") ? null : define("DB_DATABASE", ""); 
 
 
- $connection  = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
+ $connection = mysqli_connect(DB_SERVER,DB_USER,DB_PASSWORD,DB_DATABASE);
  require_once("functions.php");
 
 ?>

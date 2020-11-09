@@ -1,0 +1,10 @@
+<?php
+
+echo "from functins ";
+
+
+?>
+
+
+
+

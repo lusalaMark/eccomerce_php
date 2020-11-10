@@ -1,6 +1,6 @@
 <?php
 
-echo "from functins ";
+echo "from functions ";
 
 
 ?>
